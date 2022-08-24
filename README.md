@@ -66,10 +66,3 @@
 - 热帖排行模块，使用本地缓存 Caffeine作为一级缓存和分布式缓存 Redis作为二级缓存构建多级缓存，避免了缓存雪崩，同时使用使用压测工具测试优化前后性能，将 QPS 提升了4.1倍 (5.5/sec -> 22.5/sec)，提升了网站访问速度。
 - 使用 Spring Security 做权限控制，替代拦截器的拦截控制，并使用自己的认证方案替代 Security 认证流程，使权限认证和控制更加方便灵活。
 
-
-## 系统架构
-
-![image-20210331103427522](https://gitee.com/zhengguohuang/img/raw/master/img/image-20210331103427522.png)
-
-![网站架构图](https://gitee.com/zhengguohuang/img/raw/master/img/%E7%BD%91%E7%AB%99%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
-
