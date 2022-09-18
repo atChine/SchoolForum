@@ -57,12 +57,4 @@
 - [x] 定时执行任务计算热门帖子
 
 
-## 功能简介
-
-- 使用 Redis 的 set 实现点赞，zset 实现关注，并使用 Redis 存储登录ticket和验证码，解决分布式 Session 问题，使用 Redis 的高级数据类型 HyperLogLog 统计 UV (Unique Visitor)，使用 Bitmap 统计 DAU (Daily Active User)。
-- 使用Redis Cell模块对用户发帖进行限流，防止恶意灌水。
-- 使用 Kafka 处理发送评论、点赞、关注等系统通知、将新发布的帖子异步传输至Elasticsearch服务器，并使用事件进行封装，构建了强大的异步消息系统。
-- 使用Elasticsearch做全局搜索，增加关键词高亮显示等功能。
-- 热帖排行模块，使用本地缓存 Caffeine作为一级缓存和分布式缓存 Redis作为二级缓存构建多级缓存，避免了缓存雪崩，同时使用使用压测工具测试优化前后性能，将 QPS 提升了4.1倍 (5.5/sec -> 22.5/sec)，提升了网站访问速度。
-- 使用 Spring Security 做权限控制，替代拦截器的拦截控制，并使用自己的认证方案替代 Security 认证流程，使权限认证和控制更加方便灵活。
 
