@@ -22,11 +22,6 @@
 | Redis           | https://redis.io/                                            | 5.0.3          |
 | Kafka           | http://kafka.apache.org/                                     | 2.7.0          |
 | Elasticsearch   | https://www.elastic.co/cn/elasticsearch/                     | 7.9.3          |
-| Spring Security | https://spring.io/projects/spring-security                   | 5.4.5          |
-| Spring Quartz   | https://www.baeldung.com/spring-quartz-schedule              | 2.3.2          |
-| wkhtmltopdf     | https://wkhtmltopdf.org                                      | 0.12.6         |
-| kaptcha         | https://github.com/penggle/kaptcha                           | 2.3.2          |
-| Thymeleaf       | https://www.thymeleaf.org/                                   | 3.0.12.RELEASE |
 | MySQL           | https://www.mysql.com/                                       | 5.7.17         |
 | JDK             | https://www.oracle.com/java/technologies/javase-downloads.html | 1.8            |
 
@@ -51,10 +46,8 @@
 - [x] 关注
 - [x] 系统通知
 - [x] 搜索
-- [x] 权限控制
 - [x] 置顶、加精、删除
 - [x] 网站统计
-- [x] 定时执行任务计算热门帖子
 
 
 
